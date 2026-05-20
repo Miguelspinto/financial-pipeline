@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-API_KEY = "I0GBED553DQT5RVT"
+API_KEY = "your_api_key_here"
 
 def fetch_stock_data(symbol):
     logger.info(f"Fetching data for {symbol}")
